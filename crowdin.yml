@@ -1,0 +1,8 @@
+files:
+  - source: /app/src/main/java
+    ignore:
+      - /app/src/main/java
+    translation: /app/src/main/res/%language%/%original_file_name%
+    languages_mapping:
+      language:
+        af: /app/src/main/res/%language%/%original_file_name%
